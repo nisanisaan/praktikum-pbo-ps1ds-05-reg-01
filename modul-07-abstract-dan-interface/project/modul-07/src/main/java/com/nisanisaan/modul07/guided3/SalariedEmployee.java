@@ -1,0 +1,19 @@
+
+package com.nisanisaan.modul07.guided3;
+
+
+//wajibb menginput method yang sudah dideklarasikan 
+public class SalariedEmployee extends Employee {
+
+    private double weeklySalary;
+
+    public SalariedEmployee(String name, double weeklySalary) {
+        super(name);
+        this.weeklySalary = weeklySalary;
+    }
+
+    @Override
+    public double earnings() {
+        return weeklySalary;
+    }
+}
